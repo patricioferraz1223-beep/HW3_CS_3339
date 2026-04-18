@@ -4,7 +4,8 @@
 #include <iostream>
 #include <fstream>
 
-class Entry {
+class Entry 
+{
 public:
     Entry();
     ~Entry();
