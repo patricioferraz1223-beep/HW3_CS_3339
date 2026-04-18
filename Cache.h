@@ -4,8 +4,7 @@
 #include <iostream>
 #include <fstream>
 
-class Entry 
-{
+class Entry {
 public:
     Entry();
     ~Entry();
@@ -25,8 +24,7 @@ private:
     int ref;
 };
 
-class Cache
-{
+class Cache {
 public:
     Cache(int entries, int associativity);
     ~Cache();
