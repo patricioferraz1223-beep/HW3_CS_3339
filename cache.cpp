@@ -36,7 +36,8 @@ Cache::Cache(int entries, int associativity)
     }
 }
 
-Cache::~Cache() {
+Cache::~Cache() 
+{
     for (int i = 0; i < num_sets; i++) 
     {
         delete[] entries[i];
@@ -77,8 +78,10 @@ void Cache::update(unsigned long addr) {
     global_counter++;
 
     //empty slot first
-    for (int i = 0; i < assoc; i++) {
-        if (!entries[index][i].get_valid()) {
+    for (int i = 0; i < assoc; i++) 
+    {
+        if (!entries[index][i].get_valid()) 
+        {
             entries[index][i].set_valid(true);
             entries[index][i].set_tag(tag);
             entries[index][i].set_ref(global_counter);
