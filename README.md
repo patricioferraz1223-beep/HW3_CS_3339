@@ -1,4 +1,8 @@
 # HW3_CS_3339
+This is my submission for the second homework of CS3339 Spring 2026. I did this homework alone;
+
+Name: Patricio Ferraz Santana --- ID:djr194
+
 
 How to compile:
 Once you've signed up in your terminal and uploaded the 3 files listed, do the following:
